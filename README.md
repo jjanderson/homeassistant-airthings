@@ -1,6 +1,6 @@
 # homeassistant-airthings
 
-This was developed by @gkreitz and forked from (https://github.com/gkreitz/homeassistant-airthings)
+This was developed by [@gkreitz](https://github.com/gkreitz) and forked from (https://github.com/gkreitz/homeassistant-airthings)
 
 I have however changed:
 
