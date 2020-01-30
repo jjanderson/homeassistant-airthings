@@ -7,6 +7,8 @@ I have however changed:
 1. the VOC units from ppm to ppb
 2. I changed some of the sensors icons (Like Co2, and Radon)
 
+![](airthings_dash.PNG)
+
 Quick n' dirty hack to get Airthings Wave Plus sensor into Home Assistant. Beware, very untested. Only works with Airthings Wave Plus.
 
 I wanted something to read my Airthings Wave Plus, so I built this. Far from production quality. Magic hardcoded constants. Reads data the wrong way to work around a bug. Tested on a single device. Only supports a single Wave Plus. Does not construct a unique id for the sensor. Figured I may as well upload in case it's useful to someone else.
