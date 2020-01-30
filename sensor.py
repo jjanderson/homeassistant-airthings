@@ -22,12 +22,12 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
 MIN_TIME_BETWEEN_UPDATES = datetime.timedelta(minutes=15)
 SENSOR_TYPES = [
     ['temperature', 'Temperature', TEMP_CELSIUS, None, DEVICE_CLASS_TEMPERATURE],
-    ['co2', 'CO2', 'ppm', 'mdi:cloud', None],
+    ['co2', 'CO2', 'ppm', 'mdi:periodic-table-co2', None],
     ['pressure', 'Pressure', 'mbar', 'mdi:gauge', DEVICE_CLASS_PRESSURE],
-    ['humidity', 'Humidity', '%', None, DEVICE_CLASS_HUMIDITY],
-    ['voc', 'VOC', 'ppm', 'mdi:cloud', None],
-    ['short_radon', 'Short-term Radon', 'Bq/m3', 'mdi:cloud', None],
-    ['long_radon', 'Long-term Radon', 'Bq/m3', 'mdi:cloud', None],
+    ['humidity', 'Humidity', '%', 'mdi:water-percent', DEVICE_CLASS_HUMIDITY],
+    ['voc', 'VOC', 'ppb', 'mdi:biohazard', None],
+    ['short_radon', 'Short-term Radon', 'Bq/m3', 'mdi:biohazard', None],
+    ['long_radon', 'Long-term Radon', 'Bq/m3', 'mdi:biohazard', None],
 ]
 
 
