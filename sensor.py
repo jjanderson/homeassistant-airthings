@@ -26,8 +26,8 @@ SENSOR_TYPES = [
     ['pressure', 'Pressure', 'mbar', 'mdi:gauge', DEVICE_CLASS_PRESSURE],
     ['humidity', 'Humidity', '%', 'mdi:water-percent', DEVICE_CLASS_HUMIDITY],
     ['voc', 'VOC', 'ppb', 'mdi:biohazard', None],
-    ['short_radon', 'Short-term Radon', 'Bq/m3', 'mdi:biohazard', None],
-    ['long_radon', 'Long-term Radon', 'Bq/m3', 'mdi:biohazard', None],
+    ['short_radon', 'Short-term Radon', 'Bq/m3', 'mdi:radioactive', None],
+    ['long_radon', 'Long-term Radon', 'Bq/m3', 'mdi:radioactive', None],
 ]
 
 
